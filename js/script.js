@@ -1,5 +1,5 @@
 // Change this to your classification URL
-const classificationEndpoint = "https://hf.space/embed/jph00/testing/+/api/predict/"
+const classificationEndpoint = "https://alphonce-pet-classifier-demo.hf.space/run/predict"
 
 function dataUrlFromFile(file) {
     return new Promise((resolve, reject) => {
